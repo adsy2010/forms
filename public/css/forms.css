@@ -1,0 +1,47 @@
+* { font-family: 'Nunito', sans-serif; }
+.modal-header { font-size: 22px; background-color: #1f648b !important; color: whitesmoke !important; }
+.heading-style { font-size: 22px; background-color: #1f648b !important; color: whitesmoke !important; }
+.navbar-brand, .dropdown a{ font-size: 22px; background-color: #1f648b !important; color: whitesmoke !important; }
+.dropdown a:hover{ font-size: 22px; box-shadow: 1px 1px 10px #9ecaed; background-color: whitesmoke !important; color: black !important; }
+.dropdown-menu { padding: 0; border:0; }
+.open .dropdown-toggle { background-color: whitesmoke !important; color: black !important; }
+.clickable-row { cursor: pointer; }
+.unread { font-style: italic; background-color: lightgoldenrodyellow; }
+.menu-text-link:hover .menu-text {  }
+.popover-content { width: 300px; }
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+    width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+
+    /* Adding a light border */
+    box-shadow: inset 0 0 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+    text-indent: 0;
+}
+.tags label { padding:4px;  margin:2px; font-size: 14px;}
+
+.radiostyles { transition: all 0.3s; transform: scale(1.4); }
+.radiostyles:hover { transform: scale(2.8); }
+.btn-nav-custom { padding:25px; min-width: 95%; font-size:28px; text-align: left; }
+.btn-nav-custom-lg { padding:25px; min-width:98%; font-size:30px; text-align: left; }
+a.btn.bg-warning { color:black !important; }
+a.btn { color:whitesmoke !important; }
